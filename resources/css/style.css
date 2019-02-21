@@ -36,8 +36,17 @@ body {
 }
 
 .missionColumn {
-  display: flex;
-  width: 700px;
-  background-image: url("../../images/mission-background.jpg");
-  align-items: center;
+
+}
+
+.imgContain {
+  position: relative;
+}
+
+.centered {
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
 }
