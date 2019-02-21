@@ -8,6 +8,8 @@ body {
 }
 
 .header {
+  background-color: black;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,9 +27,17 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-right: 10px;
 }
 
 .pageLinks a{
   margin: 10px;
   color: white;
+}
+
+.missionColumn {
+  display: flex;
+  width: 700px;
+  background-image: url("images/mission-background.jpg");
+  align-items: center;
 }
